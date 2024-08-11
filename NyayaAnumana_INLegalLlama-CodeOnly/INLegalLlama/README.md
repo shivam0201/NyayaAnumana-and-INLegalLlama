@@ -1,4 +1,4 @@
-#INLegalLlama
+# INLegalLlama
 The INLegalLlama integrates Large Language Models (LLMs) with the NyayaAnumana and PREDEX datasets to enhance legal judgment prediction and explanation capabilities. 
 This encompasses two main phases for working with LLMs:
 1. Continued PreTraining
@@ -8,7 +8,7 @@ This encompasses two main phases for working with LLMs:
 1. **Continued PreTraining**: We begin by continuing the pretraining of the base LLAMA2 model on a subset of the NyayaAnumana dataset. This phase aims to enrich the model's understanding of legal text and domain-specific knowledge.
 2. **Supervised FineTuning**: The model produced from the CPT phase undergoes supervised fine-tuning on the PREDEX dataset. This step is focused on optimizing the model for predicting judgments and providing coherent explanations in downstream tasks.
 
-##Folder Structure:
+## Folder Structure:
 1. **Continued_PreTraining:** This folder includes the code and dataset required for continued pre-training of the model. It encompasses all the resources necessary to run the pre-training phase.
 
 2. **Inference:** This folder is dedicated to evaluating the final models obtained from both the Continued Pre-Training and Supervised Fine-Tuning phases on inference tasks using two distinct datasets: PREDEX_TEST and ILDC Expert data.
