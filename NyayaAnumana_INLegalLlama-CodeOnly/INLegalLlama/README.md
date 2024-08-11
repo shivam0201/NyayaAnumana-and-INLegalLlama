@@ -13,9 +13,7 @@ This encompasses two main phases for working with LLMs:
 
 2. **Inference:** This folder is dedicated to evaluating the final models obtained from both the Continued Pre-Training and Supervised Fine-Tuning phases on inference tasks using two distinct datasets: PREDEX_TEST and ILDC Expert data.
 
-3. **INLegalLlama_Models:** Houses the models produced from both the Continued Pre-Training and Supervised Fine-Tuning phases, after completing the training phases. This folder provides access to the finalized models ready for deployment or further analysis.
-
-4. **Supervised_FineTuning:** Includes the code and data for conducting supervised fine-tuning on our two downstream tasks: Prediction and Prediction with Explanation. This folder details the process for fine-tuning the models for specific tasks related to judgment prediction.
+3. **Supervised_FineTuning:** Includes the code and data for conducting supervised fine-tuning on our two downstream tasks: Prediction and Prediction with Explanation. This folder details the process for fine-tuning the models for specific tasks related to judgment prediction.
 
 ### Important Note:
 Before running any code in the current folder, please ensure you:
