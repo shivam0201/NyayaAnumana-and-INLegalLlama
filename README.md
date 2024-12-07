@@ -2,7 +2,7 @@
 Rethinking Legal Judgement Prediction in a Realistic Scenario in the Era of Large Language Models (NLLP@EMNLP 2024)
 </h1>
 
-![task_desc](https://github.com/shivam0201/NyayaAnumana-and-INLegalLlama/INLegalLlama.jpg)
+![task_desc](https://github.com/shivam0201/NyayaAnumana-and-INLegalLlama/blob/main/INLegalLlama.jpg)
 
 <p align="center">
   <a href="https://huggingface.co/L-NLProc"><b>[🌐 Website]</b></a> •
