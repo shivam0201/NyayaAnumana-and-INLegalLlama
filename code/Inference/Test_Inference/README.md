@@ -20,12 +20,13 @@ To manage these inferences, the following sub-folders are organized as:
    - Scripts are organized by downstream task:
      * Prediction Only: Includes CPT and SFT Inferences.
      * Prediction + Explanation: Includes CPT and SFT Inferences.
-2. **Inference_Results:**
-   - Stores the results obtained from executing the inference scripts found in the Inference_Codes folder.
-3. **Inference_evaluation_metrics_calculation:**
+2. **Inference_evaluation_metrics_calculation:**
    - Contains scripts to calculate evaluation metrics based on the results in the Inference_Results folder.
    - Metrics include accuracy, precision,f1 score,etc for evaluating prediction part of Inference and ROUGE scores, BLEU scores, etc for evaluating explanation part of Inference.
    - Scripts are organized by downstream task:
       * Prediction Only: Includes CPT and SFT Inference Evaluations.
       * Prediction + Explanation: Includes CPT and SFT Inference Evaluations.
-      
+
+
+### Note: 
+The results obtained from executing the inference scripts found in the Inference_Codes folder can be accessed in the "Results" folder present in the main directory.
