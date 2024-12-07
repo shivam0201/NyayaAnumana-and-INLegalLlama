@@ -1,10 +1,13 @@
 # Inference Evaluation on PREDEX TEST Dataset
-The final models, derived from both the Continued PreTraining and Supervised Fine-Tuning phases, are assessed for their inference capabilities over [PREDEX_TEST.csv](https://drive.google.com/file/d/1IcUyh8Btm3auH0ft7oaXOEdEOydDrSGC/view)
+The final models, derived from both the Continued PreTraining and Supervised Fine-Tuning phases of INLegalLlama, are assessed for their inference capabilities over a choosen dataset (PREDEX/ILDC).Ensure that you download the datasets using below links and specify the correct file paths in the code where the data is required.
+- [PREDEX_TEST](https://paperswithcode.com/dataset/ildc)
+- [ILDC Expert Data](https://paperswithcode.com/dataset/ildc)
+
 ## Inference Types
 Four different types of inferences are performed:
 1. **CPT Model Inferences:**
    - Inference for Prediction Only Task (over CPT model)
-   - Inference for Prediction + Explanation (Task over CPT model)
+   - Inference for Prediction + Explanation Task (over CPT model)
 2. **Task-Specific SFT Model Inferences:**
    - Inference for Prediction Only Task (over SFT model trained for only prediction) 
    - Inference for Prediction + Explanation Task (over SFT model trained for prediction & explanation)
