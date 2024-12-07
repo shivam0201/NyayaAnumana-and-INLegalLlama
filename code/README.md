@@ -1,8 +1,19 @@
-# NyayaAnumana_INLegalLlama
-### NyayaAnumana &amp; INLegalLlama: The Largest Indian Legal Judgment Prediction Dataset and Specialized Language Model for Enhanced Decision Analysis
+# code folder structure
+### INLegalLlama
+The INLegalLlama integrates Large Language Models (LLMs) with the NyayaAnumana and PREDEX datasets to enhance legal judgment prediction and explanation capabilities. 
+This encompasses two main phases for working with LLMs:
+1. Continued PreTraining
+2. Supervised FineTuning
+### Inference
+This folder is dedicated to evaluating the final models obtained from both the Continued Pre-Training and Supervised Fine-Tuning phases on inference tasks using two distinct datasets: PREDEX_TEST and ILDC Expert data.
 
-The integration of AI in legal judgment prediction (LJP) has the potential to transform the legal landscape, particularly in jurisdictions like India, where the legal system is burdened by a significant backlog of cases. This paper introduces **NyayaAnumana**, the largest and most diverse corpus of Indian legal cases compiled for LJP, encompassing a total of 702,945 preprocessed cases. *NyayaAnumana* includes a wide range of cases from the Supreme Court, High Courts, Tribunal Courts, District Courts, and Daily Orders, providing unparalleled diversity and coverage. Our dataset surpasses existing datasets like PredEx and ILDC, offering a comprehensive foundation for advanced AI research in the legal domain.
-% 
-In addition to the dataset, we present **INLegalLlama**, a domain-specific generative LLM tailored to the intricacies of the Indian legal system. It is developed through a two-phase training approach: injecting legal knowledge and enhancing reasoning capabilities. This method allows the model to achieve a deep understanding of legal contexts.
-%
-Our experiments demonstrate that incorporating diverse court data significantly boosts model accuracy, achieving approximately 90\% F1 score in prediction tasks. *INLegalLlama* not only improves prediction accuracy but also offers comprehensible explanations, addressing the need for explainability in AI-assisted legal decisions. These contributions advance both the technological and practical aspects of LJP, highlighting the importance of diverse datasets in developing effective AI solutions for the legal field.
+### Prediction_classification
+
+This folder contains the code required to train various models (InLegalBERT, InCaseLawBERT, XLNet) for two types of classification tasks:
+
+1. **Binary Classification Task**: Fine-tuning models to classify a given case as either accepted (label-1/class-1) or rejected (label-0/class-0).
+
+2. **Ternary Classification Task**: Fine-tuning models to classify a given case into one of three classes:
+   - *Rejected* (label-0/class-0): Cases where single or multiple judgments are present, all are rejected.
+   - *Accepted* (label-1/class-1): Cases where single or multiple judgments are present, all are accepted.
+   - *Multi-label* (label-2/class-2): Cases where multiple judgments are present, with some accepted and some rejected.
