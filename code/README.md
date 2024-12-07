@@ -1,4 +1,9 @@
 # code folder structure
+This repository contains the source codes for the project. The codes are organized into the following folders:
+1. INLegalLlama
+2. Inference
+3. Prediction_classification
+
 ### INLegalLlama
 The INLegalLlama integrates Large Language Models (LLMs) with the NyayaAnumana and PREDEX datasets to enhance legal judgment prediction and explanation capabilities. 
 This encompasses two main phases for working with LLMs:
