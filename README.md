@@ -1,10 +1,8 @@
 <h1 align="center">
-<img src="Assets/L-NLP_Logo_Transparent.png" width="100" alt="L-NLP" />
-<br>
 Rethinking Legal Judgement Prediction in a Realistic Scenario in the Era of Large Language Models (NLLP@EMNLP 2024)
 </h1>
 
-![task_desc](https://github.com/ShubhamKumarNigam/Realistic_LJP/blob/main/Assets/workflow.jpg)
+![task_desc](https://github.com/shivam0201/NyayaAnumana-and-INLegalLlama/INLegalLlama.jpg)
 
 <p align="center">
   <a href="https://huggingface.co/L-NLProc"><b>[🌐 Website]</b></a> •
