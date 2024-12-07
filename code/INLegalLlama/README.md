@@ -11,9 +11,7 @@ This encompasses two main phases for working with LLMs:
 ## Folder Structure:
 1. **Continued_PreTraining:** This folder includes the code and dataset required for continued pre-training of the model. It encompasses all the resources necessary to run the pre-training phase.
 
-2. **Inference:** This folder is dedicated to evaluating the final models obtained from both the Continued Pre-Training and Supervised Fine-Tuning phases on inference tasks using two distinct datasets: PREDEX_TEST and ILDC Expert data.
-
-3. **Supervised_FineTuning:** Includes the code and data for conducting supervised fine-tuning on our two downstream tasks: Prediction and Prediction with Explanation. This folder details the process for fine-tuning the models for specific tasks related to judgment prediction.
+2. **Supervised_FineTuning:** Includes the code and data for conducting supervised fine-tuning on our two downstream tasks: Prediction and Prediction with Explanation. This folder details the process for fine-tuning the models for specific tasks related to judgment prediction.
 
 ### Important Note:
 Before running any code in the current folder, please ensure you:
