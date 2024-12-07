@@ -1,4 +1,4 @@
-# code folder structure
+# Code Folder Structure
 This repository contains the source codes for the project. The codes are organized into the following folders:
 1. INLegalLlama
 2. Inference
