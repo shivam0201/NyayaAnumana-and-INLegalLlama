@@ -1,5 +1,7 @@
 <h1 align="center">
-Rethinking Legal Judgement Prediction in a Realistic Scenario in the Era of Large Language Models (NLLP@EMNLP 2024)
+NyayaAnumana and InLegalLlama:
+<br>
+The Largest Indian Legal Judgment Prediction Dataset and Specialized Language Model for Enhanced Decision Analysis
 </h1>
 
 ![task_desc](https://github.com/shivam0201/NyayaAnumana-and-INLegalLlama/blob/main/INLegalLlama.jpg)
