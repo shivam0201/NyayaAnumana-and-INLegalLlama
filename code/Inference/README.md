@@ -1,7 +1,7 @@
 # Inference Evaluation
 The final models, derived from both the Continued PreTraining and Supervised Fine-Tuning phases, are assessed for their inference capabilities. Evaluation is performed using two distinct datasets:
-- [PREDEX_TEST](www.google.com)
-- [ILDC Expert Data](www.google.com)
+- [PREDEX_TEST](https://paperswithcode.com/dataset/ildc)
+- [ILDC Expert Data](https://paperswithcode.com/dataset/ildc)
 
 These datasets are evaluated using the same evaluation code, which can be found in the relevant directory. You can download the datasets from the provided links above. Once downloaded, update the dataset path in the code to point to the location of the dataset you wish to test.
 
