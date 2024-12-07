@@ -29,4 +29,4 @@ To manage these inferences, the following sub-folders are organized as:
 
 
 ### Note: 
-The results obtained from executing the inference scripts found in the Inference_Codes folder can be accessed in the "Results" folder present in the main directory.
+The results obtained from executing the inference scripts found in the Inference_Codes folder can be accessed in the "Results" folder present in the main directory or "Inference_Results" folder present in the current directory.
