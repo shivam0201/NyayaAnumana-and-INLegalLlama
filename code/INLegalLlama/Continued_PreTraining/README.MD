@@ -7,7 +7,7 @@ This sub-directory contains the code necessary to perform continued pre-training
 ### 1. Training data: 
 - This dataset includes 138,321 rows(a subset of the NyayaAnumana Dataset) composed of:
   * 100,000 randomly selected rows from the HighCourt dataset (1800 to 2019) in the NyayaAnumana Multi dataset.
-  * All rows from the Supreme Court dataset (1800 to 2019) in the NyayaAnumana Multi dataset.
+  * All rows(38,321 rows) from the Supreme Court dataset (1800 to 2019) in the NyayaAnumana Multi dataset.
 - **Download**: [Training Data (train.csv)](https://drive.google.com/file/d/11j9K6u3mYe8V1_HLxK2vMckodK4YYvn_/view?usp=sharing)
 ### 2. Validation data: 
 - This dataset includes 12,239 rows composed of:
