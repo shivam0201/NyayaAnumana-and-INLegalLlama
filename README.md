@@ -4,7 +4,7 @@ NyayaAnumana and InLegalLlama:
 The Largest Indian Legal Judgment Prediction Dataset and Specialized Language Model for Enhanced Decision Analysis
 </h1>
 
-![task_desc](https://github.com/shivam0201/NyayaAnumana-and-INLegalLlama/blob/main/INLegalLlama.jpg)
+![task_desc](https://github.com/shivam0201/NyayaAnumana-and-INLegalLlama/blob/main/InLegalLlama_flow_7.drawio.png)
 
 <p align="center">
   <a href="https://huggingface.co/L-NLProc"><b>[🌐 Website]</b></a> •
