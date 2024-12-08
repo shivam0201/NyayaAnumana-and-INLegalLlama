@@ -8,11 +8,11 @@ The Largest Indian Legal Judgment Prediction Dataset and Specialized Language Mo
 
 <p align="center">
   <a href="https://huggingface.co/L-NLProc"><b>[🌐 Website]</b></a> •
-  <a href="https://aclanthology.org/2024.nllp-1.6/"><b>[📜 Proceedings]</b></a> •
-  <a href="https://arxiv.org/pdf/2410.10542"><b>[📜 ArXiv]</b></a> •
-  <a href="https://huggingface.co/collections/L-NLProc/realistic-ljp-models-671e8ed671a1f530eeb81221"><b>[🤗 HF Models]</b></a> •
-  <a href="https://huggingface.co/collections/L-NLProc/realistic-ljp-datasets-670ccbeab5aea07a37e86df8"><b>[🤗 HF Dataset]</b></a> •
-  <a href="https://github.com/ShubhamKumarNigam/Realistic_LJP"><b>[🐱 GitHub]</b></a>
+  <a href="#"><b>[📜 Proceedings]</b></a> •
+  <a href="#"><b>[📜 ArXiv]</b></a> •
+  <a href="https://huggingface.co/collections/L-NLProc/nyayaanumana-and-inlegalllama-models-6755809db3826df8fd96d570"><b>[🤗 HF Models]</b></a> •
+  <a href="https://huggingface.co/collections/L-NLProc/nyayaanumana-and-inlegalllama-dataset-67558fa9405ec5d08a891a9a"><b>[🤗 HF Dataset]</b></a> •
+  <a href="#"><b>[🐱 GitHub]</b></a>
 </p>
 
 <p align="center">
