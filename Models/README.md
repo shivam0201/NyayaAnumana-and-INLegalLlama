@@ -7,7 +7,7 @@ The INLegalLlama project integrates Large Language Models (LLMs) with the NyayaA
 
 ### 1.1 Continued PreTraining (CPT)
 **Objective**: Enhance the base LLama2 model by continuing pretraining on a subset of the NyayaAnumana dataset to instill domain-specific knowledge and improve comprehension of legal texts.<br/>
-**Model Access**: Models produced in this phase can be accessed here.
+**Model Access**: [Continued PreTrained Model](https://huggingface.co/L-NLProc/InLegalLlama/tree/main/INLegalLlama/CPT)
 
 ### 1.2 Supervised FineTuning (SFT)
 **Objective**: Fine-tune the CPT-trained model on the PREDEX dataset for the respective downstream tasks:
@@ -21,8 +21,8 @@ The INLegalLlama project integrates Large Language Models (LLMs) with the NyayaA
 <br/>
 
 **Model Access**:
- - Prediction-Only Model: Access here.
- - Prediction + Explanation Model: Access here.
+ - [Prediction-Only Model](https://huggingface.co/L-NLProc/InLegalLlama/tree/main/INLegalLlama/SFT/Prediction_Only)
+ - [Prediction + Explanation Model](https://huggingface.co/L-NLProc/InLegalLlama/tree/main/INLegalLlama/SFT/Prediction_and_Explanation)
 
 ## 2. Transformer Classification Models
 We have trained various transformer-based models (InLegalBERT, InCaseLaw, XLNet) for two distinct legal judgment classification tasks:
@@ -38,9 +38,9 @@ We have trained various transformer-based models (InLegalBERT, InCaseLaw, XLNet)
    - Multi-Label (Label 2 / Class 2): Mixed judgments, with some accepted and some rejected.
 
 ### 2.3 Model Access
- - InCaseLaw
- - InLegalBERT
- - XLNet
+ - [InCaseLaw](https://huggingface.co/L-NLProc/NyayaAnumana-Transformer-Models/tree/main/InCaseLaw)
+ - [InLegalBERT](https://huggingface.co/L-NLProc/NyayaAnumana-Transformer-Models/tree/main/InLegalBert)
+ - [XLNet](https://huggingface.co/L-NLProc/NyayaAnumana-Transformer-Models/tree/main/XLNet)
 
 ### 2.4 Folder Structure
 Each model folder is organized into the following subdirectories:
