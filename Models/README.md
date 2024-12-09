@@ -48,8 +48,7 @@ Each model folder is organized into the following subdirectories:
  - **Binary**: Contains models fine-tuned for binary classification tasks. This is further divided into:<br/>
     - Single: Models trained exclusively on binary-labeled datasets, where:
         - Label 0: Rejected cases
-        - Label 1: Accepted cases
-   <br/>
+        - Label 1: Accepted cases  <br/>
     - Multi: Models trained on an enhanced binary dataset derived from the ternary classification dataset. In this setup, multi-label cases (Label 2) are merged with the Accepted label (Label 1). These models are experimental and optional.
  - **Ternary**: Contains models fine-tuned for ternary classification tasks, categorizing cases into:
 
