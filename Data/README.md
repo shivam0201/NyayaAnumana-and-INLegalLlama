@@ -32,7 +32,7 @@ To train and evaluate models(in classification_prediction folder in parent direc
 	   - *Accepted* (label-1/class-1): Cases where single or multiple judgments are present, all are accepted.
 	   - *Multi-label* (label-2/class-2): Cases where multiple judgments are present, with some accepted and some rejected.
    
- - (Optional) For consistency, you may choose to use the same court type (e.g., SCI only) across the training, validation, and test datasets. While different court types can be used, maintaining consistency can help ensure more reliable model performance.
+ - (Optional)  For consistency, you may choose to use the same csv type (from csv types mentioned in CSV File types header e.g., SCI only) across the training, validation, and test datasets. While different court types can be used, maintaining consistency can help ensure more reliable model performance.
  
  - Make sure to select the appropriate CSV files for each dataset type to match your classification task and ensure compatibility with the classification_prediction folder requirements.
  
