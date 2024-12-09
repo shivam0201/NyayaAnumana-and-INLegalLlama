@@ -16,3 +16,6 @@ This sub-directory contains the code necessary to perform continued pre-training
 - **Download**: [Validation Data](https://huggingface.co/datasets/L-NLProc/InLegalLlama-training-data/tree/main/For%20CPT)
 
 To execute the continued pre-training, please follow the steps outlined in the provided notebook/python script. Ensure that you update the file paths in the code as specified in the notebook.
+
+### Note:
+For access to the complete NyayaAnumana dataset, which extends beyond the subset used for training (selected due to resource constraints), please refer to the NyayaAnumana folder in main directory.
