@@ -14,10 +14,12 @@ The INLegalLlama project integrates Large Language Models (LLMs) with the NyayaA
  - Judgment Prediction Only
  - Judgment Prediction + Rationale Explanation
 <br/>
+
 **Model Variants**:
  - Prediction-Only Model: Optimized for predicting legal case outcomes.
  - Prediction + Explanation Model: Optimized for predicting outcomes and providing detailed rationale explanations.
 <br/>
+
 **Model Access**:
  - Prediction-Only Model: Access here.
  - Prediction + Explanation Model: Access here.
