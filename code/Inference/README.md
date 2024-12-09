@@ -1,6 +1,6 @@
 # Inference Evaluation
 The final models, derived from both the Continued PreTraining and Supervised Fine-Tuning phases of INLegalLlama, are assessed for their inference capabilities. Evaluation is performed using two distinct datasets:
-- [PREDEX_TEST](https://paperswithcode.com/dataset/ildc)
+- [PREDEX_TEST](https://huggingface.co/datasets/L-NLProc/PredEx/resolve/main/test.csv)
 - [ILDC Expert Data](https://paperswithcode.com/dataset/ildc)
 
 These datasets are evaluated using the same evaluation code, which can be found in the relevant links given above. You can download the datasets from the provided links above. Once downloaded, update the dataset path in the code to point to the location of the dataset you wish to test.
