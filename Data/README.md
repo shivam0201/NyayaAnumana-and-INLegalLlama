@@ -51,7 +51,7 @@ To train and evaluate models(in classification_prediction folder in parent direc
 	 
  ### NOTE
  
-1. While training, specifically for binary classification tasks, you can use [binary_multi_train](https://huggingface.co/datasets/L-NLProc/NyayaAnumana-Classification-Data/resolve/main/train/binary_multi_train.zip) datasets. These are intended for experimental purposes, merging **Multi-label (label-2/class-2)** cases into the **Accepted** label from the ternary classification task. You may choose to use or disregard these datasets based on your experimental needs.
+1. While training, specifically for binary classification tasks, you can use **binary_multi_train** datasets. These are intended for experimental purposes, merging **Multi-label (label-2/class-2)** cases into the **Accepted** label from the ternary classification task. You may choose to use or disregard these datasets based on your experimental needs.
 
 2. During testing also, we used [2020_2024_single](https://huggingface.co/datasets/L-NLProc/NyayaAnumana-Classification-Data/resolve/main/test/2020_2024_single.zip), a temporal test set designed to evaluate model performance on recent case descriptions. This set includes data from January 2020 to April 2024, covering various court types (Supreme Court of India, High Courts, Tribunals, and Daily Orders). This dataset is provided to assess how the model performs on more recent cases, as other CSV files are limited to data up to December 2019.
  
