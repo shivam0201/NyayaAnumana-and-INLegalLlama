@@ -1,9 +1,9 @@
 ## Dataset links
 
 1. **input_data**: The complete training dataset required for Supervised Fine-Tuning (SFT). This dataset will be split into training and validation sets in the respective task-specific folders.
-	- [PREDEX_TRAIN.csv](https://drive.google.com/file/d/165nuC14kgTtt12wqUooAYWl9_njJdgK8/view?usp=sharing)
+	- [PREDEX_TRAIN.csv](https://huggingface.co/datasets/L-NLProc/PredEx)
 2. **instruction_sets**: It provides the instructions to be used as prompts during the training of each downstream task (prediction only and prediction + explanation).
-	-[instruction_dataset.csv](https://drive.google.com/file/d/1YFDiQ0zBTxcp9OyEesrOj2UNYD8Mgx09/view?usp=sharing)
+	-[instruction_dataset.csv](https://huggingface.co/datasets/L-NLProc/PredEx_Instruction_sets/blob/main/instruction_decision.csv)
 
 ### Usage Instructions
 Each subfolder within the current directory contains code for generating datasets specific to the corresponding downstream task (as indicated by the folder names). Before executing the scripts, ensure you:
