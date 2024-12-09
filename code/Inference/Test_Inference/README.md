@@ -1,7 +1,7 @@
 # Inference Evaluation on PREDEX TEST Dataset
 The final models, derived from both the Continued PreTraining and Supervised Fine-Tuning phases of INLegalLlama, are assessed for their inference capabilities over a choosen dataset (PREDEX/ILDC).Ensure that you download the datasets using below links and specify the correct file paths in the code where the data is required.
-- [PREDEX_TEST](https://paperswithcode.com/dataset/ildc)
-- [ILDC Expert Data](https://paperswithcode.com/dataset/ildc)
+- [PREDEX_TEST](https://huggingface.co/datasets/L-NLProc/PredEx/resolve/main/test.csv)
+- ILDC Expert Data.The dataset can be obtained by filling this [google form](https://docs.google.com/forms/d/e/1FAIpQLSf2A90ZaeZ2zc29nlhGDm8PUISRWpjCLf1TIj1YqV1hmDipPw/viewform). After filling this form, you will get access to the dataset link in a week.Please note that data is free to use for academic research and commercial usage of data is not allowed.
 
 ## Inference Types
 Four different types of inferences are performed:
