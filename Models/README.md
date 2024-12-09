@@ -6,7 +6,8 @@ This repository hosts the models and resources developed as part of the INLegalL
 The INLegalLlama project integrates LLama2 with the NyayaAnumana and PREDEX datasets to advance legal judgment prediction and explanation capabilities. This involves two key phases:
 
 ### 1.1 Continued PreTraining (CPT)
-**Objective**: Enhance the base LLama2 model by continuing pretraining on a subset of the NyayaAnumana dataset to instill domain-specific knowledge and improve comprehension of legal texts.<br/> 
+**Objective**: Enhance the base LLama2 model by continuing pretraining on a subset of the NyayaAnumana dataset to instill domain-specific knowledge and improve comprehension of legal texts.
+<br/>  
 **Model Access**: [Continued PreTrained Model](https://huggingface.co/L-NLProc/InLegalLlama/tree/main/INLegalLlama/CPT)
 
 ### 1.2 Supervised FineTuning (SFT)
