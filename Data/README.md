@@ -1,6 +1,6 @@
 # NyayaAnumana
 
-The NyayaAnumana directory is organized into three types(train,validation and text), each containing data for different stages of model training and evaluation:
+The NyayaAnumana directory is organized into three types(train, validation and text), each containing data for different stages of model training and evaluation:
 
 1. **train**: Contains the training dataset required for model training, organized into:
 	 - binary: Data for binary classification tasks.
@@ -35,7 +35,28 @@ To train and evaluate models(in classification_prediction folder in parent direc
  - (Optional)  For consistency, you may choose to use the same csv type (from csv types mentioned in CSV File types header e.g., SCI only) across the training, validation, and test datasets. While different court types can be used, maintaining consistency can help ensure more reliable model performance.
  
  - Make sure to select the appropriate CSV files for each dataset type to match your classification task and ensure compatibility with the classification_prediction folder requirements.
- 
+
+## Access the Dataset
+The dataset is **free to use for academic research purposes**. Commercial usage of the dataset is strictly prohibited.
+
+### How to Request Access
+To obtain the dataset:
+1. Fill out the [NyayaAnuman Dataset Request Form](https://forms.gle/81XMsnZpTQBfPeZt7).
+2. After submitting the form, you will receive the dataset access link via email within one week.
+**Note:** Use your **official email address** for verification. Requests are processed in batches, so we appreciate your patience.
+
+---
+
+## Terms of Use
+By requesting access, you agree to the following terms:
+1. The dataset will be used **ONLY for research purposes**.
+2. You will **NOT use the dataset for any commercial purposes**.
+3. You will **NOT share the dataset publicly or upload it to any online platforms**.
+
+Failure to comply with these terms may result in the revocation of access and legal actions.
+
+---
+
  ## Data links
 
 1. **train**: Contains the training dataset required for model training, organized into:
