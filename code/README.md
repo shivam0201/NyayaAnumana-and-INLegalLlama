@@ -3,15 +3,16 @@ This repository contains the source codes for the project. The codes are organiz
 1. INLegalLlama
 2. Inference
 3. Prediction_classification
-
+---
 ### 1. INLegalLlama
 The INLegalLlama integrates Large Language Models (LLMs) with the NyayaAnumana and PREDEX datasets to enhance legal judgment prediction and explanation capabilities. 
 This encompasses two main phases for working with LLMs:
 1. Continued PreTraining
 2. Supervised FineTuning
+---
 ### 2. Inference
 This folder is dedicated to evaluating the final models obtained from both the Continued Pre-Training and Supervised Fine-Tuning phases on inference tasks using two distinct datasets: PREDEX_TEST and ILDC Expert data.
-
+---
 ### 3. Prediction_classification
 
 This folder contains the code required to train various models (InLegalBERT, InCaseLawBERT, XLNet) for two types of classification tasks:
