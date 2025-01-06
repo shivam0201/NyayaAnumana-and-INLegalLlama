@@ -6,15 +6,23 @@ The integration of artificial intelligence (AI) in legal judgment prediction (LJ
 In addition to the dataset, we present _INLegalLlama_, a domain-specific generative large language model (LLM) tailored to the intricacies of the Indian legal system. It is developed through a two-phase training approach over a base LLaMa model. First, Indian legal documents are injected using continual pretraining. Second, task-specific supervised finetuning is done. This method allows the model to achieve a deeper understanding of legal contexts. 
 
 Our experiments demonstrate that incorporating diverse court data significantly boosts model accuracy, achieving approximately 90% F1-score in prediction tasks. _INLegalLlama_ not only improves prediction accuracy but also offers comprehensible explanations, addressing the need for explainability in AI-assisted legal decisions. 
-
-![InLegalLlama](images/InLegalLlama.png)
 ![NyayaAnumana](images/NyayaAnumana.png)
 
-## Citation
+# INLegalLlama
+The INLegalLlama integrates Large Language Models (LLMs) with the NyayaAnumana and PREDEX datasets to enhance legal judgment prediction and explanation capabilities. 
+This encompasses two main phases for working with LLMs:
+1. Continued PreTraining
+2. Supervised FineTuning
+<br/>
 
-If you use this project in your research or other work, please cite it as follows:
+1. **Continued PreTraining**: We begin by continuing the pretraining of the base LLAMA2 model on a subset of the NyayaAnumana dataset. This phase aims to enrich the model's understanding of legal text and domain-specific knowledge.
+2. **Supervised FineTuning**: The model produced from the CPT phase undergoes supervised fine-tuning on the PREDEX dataset. This step is focused on optimizing the model for predicting judgments and providing coherent explanations in downstream tasks.
+
+![InLegalLlama](images/InLegalLlama.png)
+
+
 ## Citation
-If you use our method or models, please cite [our paper]():
+If you use this project in your research or other work, please cite it as follows:
 ```
 @article{nigam2024nyayaanumana,
   title={NyayaAnumana \& INLegalLlama: The Largest Indian Legal Judgment Prediction Dataset and Specialized Language Model for Enhanced Decision Analysis},
