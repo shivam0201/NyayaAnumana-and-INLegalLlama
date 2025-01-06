@@ -9,3 +9,14 @@ Our experiments demonstrate that incorporating diverse court data significantly 
 
 ![InLegalLlama](images/InLegalLlama.png)
 ![NyayaAnumana](images/NyayaAnumana.png)
+
+## Citation
+
+If you use this project in your research or other work, please cite it as follows:
+
+@article{nigam2024nyayaanumana,
+  title={NyayaAnumana \& INLegalLlama: The Largest Indian Legal Judgment Prediction Dataset and Specialized Language Model for Enhanced Decision Analysis},
+  author={Nigam, Shubham Kumar and Patnaik, Balaramamahanthi Deepak and Mishra, Shivam and Shallum, Noel and Ghosh, Kripabandhu and Bhattacharya, Arnab},
+  journal={arXiv preprint arXiv:2412.08385},
+  year={2024}
+}
