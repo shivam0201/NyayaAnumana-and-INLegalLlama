@@ -12,6 +12,7 @@ This encompasses two main phases for working with LLMs:
 ---
 ### 2. Inference
 This folder is dedicated to evaluating the final models obtained from both the Continued Pre-Training and Supervised Fine-Tuning phases on inference tasks using two distinct datasets: PREDEX_TEST and ILDC Expert data.
+
 ---
 ### 3. Prediction_classification
 
