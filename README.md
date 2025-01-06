@@ -20,3 +20,15 @@ If you use this project in your research or other work, please cite it as follow
   journal={arXiv preprint arXiv:2412.08385},
   year={2024}
 }
+
+
+Alternatively, you can also cite the project using the following DOI (if applicable):
+
+> **DOI**: [10.1234/xyz5678](https://doi.org/10.1234/xyz5678)
+
+### How to Cite
+
+To cite this repository, copy the citation format above into your work, and make sure to adjust the details (author, title, year, etc.) based on your specific repository information. You can also use tools like [Zenodo](https://zenodo.org/) to generate a DOI for your repository if desired.
+
+Thank you for acknowledging our work!
+
