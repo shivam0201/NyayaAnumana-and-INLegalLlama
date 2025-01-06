@@ -1,8 +1,0 @@
-# NyayaAnumana_INLegalLlama
-### NyayaAnumana &amp; INLegalLlama: The Largest Indian Legal Judgment Prediction Dataset and Specialized Language Model for Enhanced Decision Analysis
-
-The integration of AI in legal judgment prediction (LJP) has the potential to transform the legal landscape, particularly in jurisdictions like India, where the legal system is burdened by a significant backlog of cases. This paper introduces **NyayaAnumana**, the largest and most diverse corpus of Indian legal cases compiled for LJP, encompassing a total of 702,945 preprocessed cases. *NyayaAnumana* includes a wide range of cases from the Supreme Court, High Courts, Tribunal Courts, District Courts, and Daily Orders, providing unparalleled diversity and coverage. Our dataset surpasses existing datasets like PredEx and ILDC, offering a comprehensive foundation for advanced AI research in the legal domain.
-% 
-In addition to the dataset, we present **INLegalLlama**, a domain-specific generative LLM tailored to the intricacies of the Indian legal system. It is developed through a two-phase training approach: injecting legal knowledge and enhancing reasoning capabilities. This method allows the model to achieve a deep understanding of legal contexts.
-%
-Our experiments demonstrate that incorporating diverse court data significantly boosts model accuracy, achieving approximately 90\% F1 score in prediction tasks. *INLegalLlama* not only improves prediction accuracy but also offers comprehensible explanations, addressing the need for explainability in AI-assisted legal decisions. These contributions advance both the technological and practical aspects of LJP, highlighting the importance of diverse datasets in developing effective AI solutions for the legal field.
