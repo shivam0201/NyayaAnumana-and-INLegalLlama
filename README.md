@@ -1,3 +1,35 @@
+<h1 align="center">
+<img src="images/L-NLP_Logo_Transparent.png" width="100" alt="L-NLP" />
+<br>
+NyayaAnumana & INLegalLlama: The Largest Indian Legal Judgment Prediction Dataset and Specialized Language Model for Enhanced Decision Analysis (COLING 2025)
+</h1>
+
+![task_desc](https://github.com/ShubhamKumarNigam/PredEx/raw/main/Assets/task_desc.jpg)
+
+<p align="center">
+  <a href="https://huggingface.co/L-NLProc"><b>[🌐 Website]</b></a> •
+  <a href="https://aclanthology.org/2024.findings-acl.255/"><b>[📜 Proceedings]</b></a> •
+  <a href="https://arxiv.org/abs/2406.04136"><b>[📜 ArXiv]</b></a> •
+  <a href="https://huggingface.co/collections/L-NLProc/predex-models-66509d3f4de624770d690a48"><b>[🤗 HF Models]</b></a> •
+  <a href="https://huggingface.co/collections/L-NLProc/predex-datasets-6650a75907cc2255eab18d01"><b>[🤗 HF Dataset]</b></a> •
+  <a href="https://github.com/ShubhamKumarNigam/PredEx"><b>[🐱 GitHub]</b></a>
+</p>
+
+<p align="center">
+  This is the official implementation of the paper:
+</p>
+
+<p align="center">
+  <a href="https://sites.google.com/view/shubhamkumarnigam">Shubham Kumar Nigam</a>, <a href="https://www.linkedin.com/in/anuragsharma321/">Anurag Sharma</a>, <a href="https://www.linkedin.com/in/danushk/">Danush Khanna</a>, <a href="#">Noel Shallum</a>, <a href="https://sites.google.com/view/kripabandhughosh-homepage/home">Kripabandhu Ghosh</a>, and <a href="https://www.cse.iitk.ac.in/users/arnabb/">Arnab Bhattacharya</a>:
+</p>
+
+<p align="center">
+  <a href="https://aclanthology.org/2024.findings-acl.255/">Legal Judgment Reimagined: PredEx and the Rise of Intelligent AI Interpretation in Indian Courts</a> (to appear in <strong>ACL 2024</strong>)
+</p>
+
+
+
+
 # NyayaAnumana_INLegalLlama
 ### NyayaAnumana &amp; INLegalLlama: The Largest Indian Legal Judgment Prediction Dataset and Specialized Language Model for Enhanced Decision Analysis
 
