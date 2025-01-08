@@ -8,10 +8,10 @@ NyayaAnumana & INLegalLlama: The Largest Indian Legal Judgment Prediction Datase
 
 <p align="center">
   <a href="https://huggingface.co/L-NLProc"><b>[🌐 Website]</b></a> •
-  <a href=""><b>[📜 Proceedings]</b></a> •
+  <a href="#"><b>[📜 Proceedings]</b></a> •
   <a href="https://arxiv.org/abs/2412.08385"><b>[📜 ArXiv]</b></a> •
   <a href="https://huggingface.co/collections/L-NLProc/nyayaanumana-and-inlegalllama-models-6755809db3826df8fd96d570"><b>[🤗 HF Models]</b></a> •
-  <a href="https://forms.gle/81XMsnZpTQBfPeZt7"><b>[Google Form to request dataset access]</b></a> •
+  <a href="https://forms.gle/81XMsnZpTQBfPeZt7"><b>[📝 Google Form to request dataset access]</b></a> •
   <a href="https://github.com/ShubhamKumarNigam/NyayaAnumana-and-INLegalLlama/tree/main"><b>[🐱 GitHub]</b></a>
 </p>
 
@@ -24,6 +24,7 @@ NyayaAnumana & INLegalLlama: The Largest Indian Legal Judgment Prediction Datase
 <p align="center">
  <b>Authors:</b> <a href="https://sites.google.com/view/shubhamkumarnigam">Shubham Kumar Nigam</a>, <a href="https://www.linkedin.com/in/balaramamahanthi-deepak-patnaik-b83043246/">Balaramamahanthi Deepak Patnaik</a>, <a href="https://www.linkedin.com/in/shivamm1602/">Shivam Mishra</a>, <a href="#">Noel Shallum</a>, <a href="https://sites.google.com/view/kripabandhughosh-homepage/home">Kripabandhu Ghosh</a>, and <a href="https://www.cse.iitk.ac.in/users/arnabb/">Arnab Bhattacharya</a>:
 </p>
+
 ---
 
 ## Overview
