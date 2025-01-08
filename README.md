@@ -4,7 +4,7 @@
 NyayaAnumana & INLegalLlama: The Largest Indian Legal Judgment Prediction Dataset and Specialized Language Model for Enhanced Decision Analysis (COLING 2025)
 </h1>
 
-![task_desc](https://github.com/ShubhamKumarNigam/PredEx/raw/main/Assets/task_desc.jpg)
+![task_desc](images/InLegalLlama_task_diagram.png)
 
 <p align="center">
   <a href="https://huggingface.co/L-NLProc"><b>[🌐 Website]</b></a> •
