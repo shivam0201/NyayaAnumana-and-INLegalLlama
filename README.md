@@ -40,7 +40,7 @@ If you have any questions on this work, please open a [GitHub issue](https://git
 ```shubhamkumarnigam@gmail.com, bdeepakpatnaik2002@gmail.com, shivammis@gmail.com```
 
 ## NyayaAnumana
-<img src="images/NyayaAnumana.png" height="50%" />
+<img src="images/NyayaAnumana.png" height="10%" />
 
 This paper introduces _NyayaAnumana_, the largest and most diverse corpus of Indian legal cases compiled for LJP, encompassing a total of 7,02,945 preprocessed cases. _NyayaAnumana_, which combines the words **"Nyay" (judgment)** and **"Anuman" (prediction or inference)** respectively for most major Indian languages, includes a wide range of cases from the Supreme Court, High Courts, Tribunal Courts, District Courts, and Daily Orders and, thus, provides unparalleled diversity and coverage. Our dataset surpasses existing datasets like PredEx and ILDC, offering a comprehensive foundation for advanced AI research in the legal domain. 
 
