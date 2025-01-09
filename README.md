@@ -49,8 +49,14 @@ The dataset compilation involved collecting 22,82,137 raw Indian court case proc
 
 ### Data Statistics
 The dataset is categorized into ‘multi’ and ‘single’ decision types, with detailed statistics provided in Tables 2 and 3, including document counts, average token lengths, and decision distributions. The data is also analyzed on a court-wise basis, revealing insights into case characteristics across different court levels. 
-![datastats_ternary](images/datastats_ternary.png)
-![datastats_binary](images/datastats_binary.png)
+
+<table>
+  <tr>
+    <td><img src="images/datastats_ternary.png" alt="Ternary Data Stats" /></td>
+    <td><img src="images/datastats_binary.png" alt="Binary Data Stats" /></td>
+  </tr>
+</table>
+
 ## INLegalLlama
 In addition to the dataset, we present _INLegalLlama_, a domain-specific generative large language model (LLM) tailored to the intricacies of the Indian legal system.The INLegalLlama integrates Large Language Models (LLMs) with the NyayaAnumana and PREDEX datasets to enhance legal judgment prediction and explanation capabilities. It is developed through a two-phase training approach over a base LLaMa model. First, Indian legal documents are injected using continual pretraining. Second, task-specific supervised finetuning is done. This method allows the model to achieve a deeper understanding of legal contexts.
 The two primary phases employed are:
