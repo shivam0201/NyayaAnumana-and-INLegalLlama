@@ -26,11 +26,11 @@ NyayaAnumana & INLegalLlama: The Largest Indian Legal Judgment Prediction Datase
 </p>
 InLegalLlama addresses the inherent challenges of legal outcome prediction and explainability, stemming from the complexity of legal proceedings and the scarcity of expert-annotated data. Our solution, powered by the NyayaAnumana Dataset, offers a comprehensive approach to legal analysis, leveraging over 700,000 meticulously processed cases. Additionally, the model benefits from 15,000 expert-annotated instances sourced from the PredEx dataset, which are critical for improving prediction accuracy and providing clear, understandable explanations. Key highlights of the project include:
 
-1. NyayaAnumana Database: A comprehensive legal resource developed using keyword-based analysis and heuristic NLP methods, encompassing over 700,000 carefully processed cases, providing a robust foundation for legal predictions.
+1. **NyayaAnumana Database**: A comprehensive legal resource developed using keyword-based analysis and heuristic NLP methods, encompassing over 700,000 carefully processed cases, providing a robust foundation for legal predictions.
 
-2. Improved Prediction Accuracy: We enhanced prediction accuracy within the Indian legal domain to over 90%, optimizing transformer-based models on the NyayaAnumana dataset and evaluating performance across diverse courts and hierarchical legal data.
+2. **Improved Prediction Accuracy**: We enhanced prediction accuracy within the Indian legal domain to over 90%, optimizing transformer-based models on the NyayaAnumana dataset and evaluating performance across diverse courts and hierarchical legal data.
 
-3. InLegalLlama: An explainable generative Large Language Model (LLM) designed to predict legal outcomes with clear, understandable explanations. InLegalLlama achieved an impressive 76.05% accuracy, outperforming state-of-the-art results from PredEx (51.77%) and the base Llama2 model (57.26%).
+3. **InLegalLlama Generative Model**: An explainable generative Large Language Model (LLM) designed to predict legal outcomes with clear, understandable explanations. InLegalLlama achieved an impressive 76.05% accuracy, outperforming state-of-the-art results from PredEx (51.77%) and the base Llama2 model (57.26%).
 
 This advancement sets a new benchmark for legal judgment prediction in the NLP community, making strides in both accuracy and explainability for legal applications.
 If you have any questions on this work, please open a [GitHub issue](https://github.com/ShubhamKumarNigam/PredEx/issues) or email the authors at
