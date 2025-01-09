@@ -48,12 +48,12 @@ This paper introduces _NyayaAnumana_, the largest and most diverse corpus of Ind
 The dataset compilation involved collecting 22,82,137 raw Indian court case proceedings up to April 2024 from the IndianKanoon website, a well-known legal search engine. After preprocessing, a total of 7,02,945 preprocessed cases were finalized for use in the dataset.
 
 ### Data Statistics
-The dataset is categorized into ‘multi’ and ‘single’ decision types, with detailed statistics provided in Tables 2 and 3, including document counts, average token lengths, and decision distributions. The data is also analyzed on a court-wise basis, revealing insights into case characteristics across different court levels. 
+The dataset is categorized into ‘single’ and ‘multi’ decision types, with detailed statistics provided in Tables 2 and 3, including document counts, average token lengths, and decision distributions. The data is also analyzed on a court-wise basis, revealing insights into case characteristics across different court levels. 
 
 <table>
   <tr>
-    <td><img src="images/datastats_ternary.png" alt="Ternary Data Stats" /></td>
     <td><img src="images/datastats_binary.png" alt="Binary Data Stats" /></td>
+    <td><img src="images/datastats_ternary.png" alt="Ternary Data Stats" /></td>
   </tr>
 </table>
 
