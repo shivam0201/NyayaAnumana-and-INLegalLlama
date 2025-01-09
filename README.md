@@ -49,7 +49,9 @@ The dataset compilation involved collecting 22,82,137 raw Indian court case proc
 ### Data Categorization
 The dataset is categorized into single and multi based on the target classification task. You can choose the appropriate categorization based on your use case:
 
-1. **Binary Classification Task**: Fine-tuning models to classify cases as either Accepted (label-1/class-1) or Rejected (label-0/class-0).
+1. **Binary Classification Task**: Fine-tuning models to classify cases into one of three categories:
+ - Rejected (label-0/class-0): Cases where all judgments, whether single or multiple, are rejected.
+ - Accepted (label-1/class-1): Cases where all judgments, whether single or multiple, are accepted.
 
 2. **Ternary Classification Task**: Fine-tuning models to classify cases into one of three categories:
  - Rejected (label-0/class-0): Cases where all judgments, whether single or multiple, are rejected.
