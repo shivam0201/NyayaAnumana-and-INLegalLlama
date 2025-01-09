@@ -74,6 +74,10 @@ The two primary phases employed are:
   <img src="images/InLegalLlama.png" alt="InLegalLlama" />
 </p>
 
+<div style="text-align: center;">
+  <img src="images/InLegalLlama.png" alt="InLegalLlama" />
+</div>
+
 
 ---
 
