@@ -113,7 +113,7 @@ Ensure you have the necessary hardware and software requirements in place to rep
 ### Fine-tuning Parameters
 
 - Fine-tune the Large Language Models (LLMs) for 5 epochs using Parameter-Efficient Fine-Tuning to strike a balance between optimal training and avoiding overfitting, while incorporating Early Stopping during instruction fine-tuning.
-- 
+  
 ### Post-processing for Quality Enhancement
 
 - Implement a post-processing step after inference to address common issues in generative models, such as sentence hallucination and repetition.
