@@ -44,8 +44,13 @@ If you have any questions on this work, please open a [GitHub issue](https://git
 
 This paper introduces _NyayaAnumana_, the largest and most diverse corpus of Indian legal cases compiled for LJP, encompassing a total of 7,02,945 preprocessed cases. _NyayaAnumana_, which combines the words **"Nyay" (judgment)** and **"Anuman" (prediction or inference)** respectively for most major Indian languages, includes a wide range of cases from the Supreme Court, High Courts, Tribunal Courts, District Courts, and Daily Orders and, thus, provides unparalleled diversity and coverage. Our dataset surpasses existing datasets like PredEx and ILDC, offering a comprehensive foundation for advanced AI research in the legal domain. 
 
+### Dataset Compilation
+The dataset compilation involved collecting 22,82,137 raw Indian court case proceedings up to April 2024 from the IndianKanoon website, a well-known legal search engine. After preprocessing, a total of 7,02,945 preprocessed cases were finalized for use in the dataset.
 
-
+### Data Statistics
+The dataset is categorized into ‘multi’ and ‘single’ decision types, with detailed statistics provided in Tables 2 and 3, including document counts, average token lengths, and decision distributions. The data is also analyzed on a court-wise basis, revealing insights into case characteristics across different court levels. 
+![datastats_ternary](images/datastats_ternary.png)
+![datastats_binary](images/datastats_binary.png)
 ## INLegalLlama
 In addition to the dataset, we present _INLegalLlama_, a domain-specific generative large language model (LLM) tailored to the intricacies of the Indian legal system.The INLegalLlama integrates Large Language Models (LLMs) with the NyayaAnumana and PREDEX datasets to enhance legal judgment prediction and explanation capabilities. It is developed through a two-phase training approach over a base LLaMa model. First, Indian legal documents are injected using continual pretraining. Second, task-specific supervised finetuning is done. This method allows the model to achieve a deeper understanding of legal contexts.
 The two primary phases employed are:
@@ -59,7 +64,7 @@ The two primary phases employed are:
 
 ---
 
-Our experiments demonstrate that incorporating diverse court data significantly boosts model accuracy, achieving approximately 90% F1-score in prediction tasks. _INLegalLlama_ not only improves prediction accuracy but also offers comprehensible explanations, addressing the need for explainability in AI-assisted legal decisions.
+Our experiments demonstrate that incorporating diverse court data significantly boosts model accuracy, achieving approximately 90% F1-score in prediction tasks. _INLegalLlama_ not only improves prediction accuracy but also offers comprehensible explanations, addressing the need for explainability in AI-assisted legal decisions.For a comprehensive overview of the experiments conducted and the corresponding results evaluated across various metrics, please refer to the main paper.
 
 ## Getting Started
 
