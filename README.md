@@ -57,6 +57,7 @@ The dataset is categorized into ‘single’ and ‘multi’ decision types, wit
   </tr>
 </table>
 The below pie chart shows the distribution of cases in different courts in percentage.This breakdown helps in understanding the diversity within the dataset and the varying complexities associated with different court levels.
+
 ![court_distribution](images/NyayaAnumana_Court_Distribution.png)
 
 ## INLegalLlama
@@ -68,6 +69,7 @@ The two primary phases employed are:
 
 1. **Continued PreTraining**: We begin by continuing the pretraining of the base LLAMA2 model on a subset of the NyayaAnumana dataset. This phase aims to enrich the model's understanding of legal text and domain-specific knowledge.
 2. **Supervised FineTuning**: The model produced from the CPT phase undergoes supervised fine-tuning on the PREDEX dataset. This step is focused on optimizing the model for predicting judgments and providing coherent explanations in downstream tasks.
+
 ![InLegalLlama](images/InLegalLlama.png)
 
 ---
