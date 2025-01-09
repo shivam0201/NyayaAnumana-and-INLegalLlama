@@ -56,6 +56,8 @@ The dataset is categorized into ‘single’ and ‘multi’ decision types, wit
     <td><img src="images/datastats_ternary.png" alt="Ternary Data Stats" /></td>
   </tr>
 </table>
+The below pie chart shows the distribution of cases in different courts in percentage.This breakdown helps in understanding the diversity within the dataset and the varying complexities associated with different court levels.
+![court_distribution](images/NyayaAnumana_Court_Distribution.png)
 
 ## INLegalLlama
 In addition to the dataset, we present _INLegalLlama_, a domain-specific generative large language model (LLM) tailored to the intricacies of the Indian legal system.The INLegalLlama integrates Large Language Models (LLMs) with the NyayaAnumana and PREDEX datasets to enhance legal judgment prediction and explanation capabilities. It is developed through a two-phase training approach over a base LLaMa model. First, Indian legal documents are injected using continual pretraining. Second, task-specific supervised finetuning is done. This method allows the model to achieve a deeper understanding of legal contexts.
