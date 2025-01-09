@@ -33,6 +33,9 @@ InLegalLlama addresses the inherent challenges of legal outcome prediction and e
 3. InLegalLlama: An explainable generative Large Language Model (LLM) designed to predict legal outcomes with clear, understandable explanations. InLegalLlama achieved an impressive 76.05% accuracy, outperforming state-of-the-art results from PredEx (51.77%) and the base Llama2 model (57.26%).
 
 This advancement sets a new benchmark for legal judgment prediction in the NLP community, making strides in both accuracy and explainability for legal applications.
+If you have any questions on this work, please open a [GitHub issue](https://github.com/ShubhamKumarNigam/PredEx/issues) or email the authors at
+
+```shubhamkumarnigam@gmail.com, bdeepakpatnaik2002@gmail.com, shivammis@gmail.com```
 
 ---
 
@@ -45,10 +48,10 @@ In addition to the dataset, we present _INLegalLlama_, a domain-specific generat
 Our experiments demonstrate that incorporating diverse court data significantly boosts model accuracy, achieving approximately 90% F1-score in prediction tasks. _INLegalLlama_ not only improves prediction accuracy but also offers comprehensible explanations, addressing the need for explainability in AI-assisted legal decisions.
 
 ---
-
+## NyayaAnumana
 ![NyayaAnumana](images/NyayaAnumana.png)
 
-# INLegalLlama
+## INLegalLlama
 The INLegalLlama integrates Large Language Models (LLMs) with the NyayaAnumana and PREDEX datasets to enhance legal judgment prediction and explanation capabilities. 
 This encompasses two main phases for working with LLMs:
 1. Continued PreTraining
@@ -59,6 +62,39 @@ This encompasses two main phases for working with LLMs:
 2. **Supervised FineTuning**: The model produced from the CPT phase undergoes supervised fine-tuning on the PREDEX dataset. This step is focused on optimizing the model for predicting judgments and providing coherent explanations in downstream tasks.
 
 ![InLegalLlama](images/InLegalLlama.png)
+
+## Getting Started
+
+### General Instructions
+
+Ensure you have the necessary hardware and software requirements in place to replicate our experimental setup. Follow the steps below to configure your environment for optimal performance.
+
+## Recommended Hardware Configuration
+
+### Hardware Specifications
+
+- Utilize two cores of [NVIDIA A100-PCIE-40GB](https://www.nvidia.com/en-gb/data-center/a100/) with 126GB RAM of 32 cores for instruction fine-tuning.
+- Additionally, a Google Colab Pro subscription with A100 Hardware accelerator is recommended for conducting Continued Pre-training,inference and other experiments.
+
+## Recommended Software Configuration
+
+### Software Setup
+
+- Set up the environment with appropriate drivers and libraries for GPU acceleration.
+- Install necessary dependencies for model training and inference.
+
+## Model Training Specifics
+
+### Fine-tuning Parameters
+
+- Fine-tune the Large Language Models (LLMs) for 5 epochs using Parameter-Efficient Fine-Tuning to strike a balance between optimal training and avoiding overfitting, while incorporating Early Stopping during instruction fine-tuning.
+- 
+### Post-processing for Quality Enhancement
+
+- Implement a post-processing step after inference to address common issues in generative models, such as sentence hallucination and repetition.
+- Filter out repeated decision and explanation parts by selecting only the initial occurrences, ensuring concise and coherent outputs.
+- Use effective prompt engineering during inference, instructing the model to first provide the judgment label followed by the corresponding explanation, facilitating easier label extraction during post-processing.
+
 
 
 ## Citation
