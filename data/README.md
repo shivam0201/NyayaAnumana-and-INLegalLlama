@@ -58,18 +58,6 @@ Failure to comply with these terms may result in the revocation of access and le
 
 ---
 
- ## Data links
-
-1. **train**: Contains the training dataset required for model training, organized into:
-	 - [binary](https://huggingface.co/datasets/L-NLProc/NyayaAnumana-Classification-Data/resolve/main/train/binary_multi_train.zip)
-	 - [ternary](https://huggingface.co/datasets/L-NLProc/NyayaAnumana-Classification-Data/resolve/main/train/ternary_multi_train.zip)
-2. **dev**: Contains the validation dataset for model training, organized into:
-	 - [binary](https://huggingface.co/datasets/L-NLProc/NyayaAnumana-Classification-Data/tree/main/dev/binary)
-	 - [ternary](https://huggingface.co/datasets/L-NLProc/NyayaAnumana-Classification-Data/tree/main/dev/ternary)
-3. **test**: Contains the test dataset used to evaluate the model, organized into:
-	 - [binary](https://huggingface.co/datasets/L-NLProc/NyayaAnumana-Classification-Data/tree/main/test/binary)
-	 - [ternary](https://huggingface.co/datasets/L-NLProc/NyayaAnumana-Classification-Data/tree/main/test/ternary)
-
 	 
  ### NOTE
  
