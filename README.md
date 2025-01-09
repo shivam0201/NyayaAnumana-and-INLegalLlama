@@ -40,15 +40,13 @@ If you have any questions on this work, please open a [GitHub issue](https://git
 ```shubhamkumarnigam@gmail.com, bdeepakpatnaik2002@gmail.com, shivammis@gmail.com```
 
 ## NyayaAnumana
-<img src="images/NyayaAnumana.png" height="10%" />
 
 This paper introduces _NyayaAnumana_, the largest and most diverse corpus of Indian legal cases compiled for LJP, encompassing a total of 7,02,945 preprocessed cases. _NyayaAnumana_, which combines the words **"Nyay" (judgment)** and **"Anuman" (prediction or inference)** respectively for most major Indian languages, includes a wide range of cases from the Supreme Court, High Courts, Tribunal Courts, District Courts, and Daily Orders and, thus, provides unparalleled diversity and coverage. Our dataset surpasses existing datasets like PredEx and ILDC, offering a comprehensive foundation for advanced AI research in the legal domain. 
 
 ### Dataset Compilation
 The dataset compilation involved collecting 22,82,137 raw Indian court case proceedings up to April 2024 from the IndianKanoon website, a well-known legal search engine. After preprocessing, a total of 7,02,945 preprocessed cases were finalized for use in the dataset.
 
-### Data Statistics
-The dataset is categorized into ‘single’ and ‘multi’ decision types, with detailed statistics provided in Tables 2 and 3, including document counts, average token lengths, and decision distributions. The data is also analyzed on a court-wise basis, revealing insights into case characteristics across different court levels.
+### Data Categorization
 The dataset is categorized into single and multi based on the target classification task. You can choose the appropriate categorization based on your use case:
 
 1. **Binary Classification Task**: Fine-tuning models to classify cases as either Accepted (label-1/class-1) or Rejected (label-0/class-0).
@@ -57,8 +55,12 @@ The dataset is categorized into single and multi based on the target classificat
  - Rejected (label-0/class-0): Cases where all judgments, whether single or multiple, are rejected.
  - Accepted (label-1/class-1): Cases where all judgments, whether single or multiple, are accepted.
  - Partially Accepted (label-2/class-2): Cases with multiple judgments, where some are accepted and others are rejected.
-Choose the categorization that best suits your usecase.
 
+Choose the categorization that best suits your usecase.
+<img src="images/NyayaAnumana.png" height="10%" />
+
+### Data Statistics
+The dataset is categorized into ‘single’ and ‘multi’ decision types, with detailed statistics provided in Tables 2 and 3, including document counts, average token lengths, and decision distributions. The data is also analyzed on a court-wise basis, revealing insights into case characteristics across different court levels.
 
 <table>
   <tr>
