@@ -2,6 +2,7 @@
 
 This repository hosts the models and resources developed as part of the INLegalLlama project for legal judgment prediction & explanation tasks and the Transformer Classification Models for legal judgment prediction task.
 
+
 ## 1. INLegalLlama Models
 The INLegalLlama project integrates LLama2 with the NyayaAnumana and PREDEX datasets to advance legal judgment prediction and explanation capabilities. This involves two key phases:
 
