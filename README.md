@@ -24,7 +24,9 @@ NyayaAnumana & INLegalLlama: The Largest Indian Legal Judgment Prediction Datase
 <p align="center">
  <b>Authors:</b> <a href="https://sites.google.com/view/shubhamkumarnigam">Shubham Kumar Nigam</a>, <a href="https://www.linkedin.com/in/balaramamahanthi-deepak-patnaik-b83043246/">Balaramamahanthi Deepak Patnaik</a>, <a href="https://www.linkedin.com/in/shivamm1602/">Shivam Mishra</a>, <a href="#">Noel Shallum</a>, <a href="https://sites.google.com/view/kripabandhughosh-homepage/home">Kripabandhu Ghosh</a>, and <a href="https://www.cse.iitk.ac.in/users/arnabb/">Arnab Bhattacharya</a>:
 </p>
-InLegalLlama addresses the inherent challenges of legal outcome prediction and explainability, stemming from the complexity of legal proceedings and the scarcity of expert-annotated data. Our solution, powered by the NyayaAnumana Dataset, offers a comprehensive approach to legal analysis, leveraging over 700,000 meticulously processed cases. Additionally, the model benefits from 15,000 expert-annotated instances sourced from the PredEx dataset, which are critical for improving prediction accuracy and providing clear, understandable explanations. Key highlights of the project include:
+
+## Overview
+The integration of artificial intelligence (AI) in legal judgment prediction (LJP) has the potential to transform the legal landscape, particularly in jurisdictions like India, where a significant backlog of cases burdens the legal system. InLegalLlama addresses the inherent challenges of legal outcome prediction and explainability, stemming from the complexity of legal proceedings and the scarcity of expert-annotated data. Our solution, powered by the NyayaAnumana Dataset, offers a comprehensive approach to legal analysis, leveraging over 700,000 meticulously processed cases. Additionally, the model benefits from 15,000 expert-annotated instances sourced from the PredEx dataset, which are critical for improving prediction accuracy and providing clear, understandable explanations. Key highlights of the project include:
 
 1. **NyayaAnumana Database**: A comprehensive legal resource developed using keyword-based analysis and heuristic NLP methods, encompassing over 700,000 carefully processed cases, providing a robust foundation for legal predictions.
 
@@ -33,35 +35,31 @@ InLegalLlama addresses the inherent challenges of legal outcome prediction and e
 3. **InLegalLlama Generative Model**: An explainable generative Large Language Model (LLM) designed to predict legal outcomes with clear, understandable explanations. InLegalLlama achieved an impressive 76.05% accuracy, outperforming state-of-the-art results from PredEx (51.77%) and the base Llama2 model (57.26%).
 
 This advancement sets a new benchmark for legal judgment prediction in the NLP community, making strides in both accuracy and explainability for legal applications.
-If you have any questions on this work, please open a [GitHub issue](https://github.com/ShubhamKumarNigam/PredEx/issues) or email the authors at
+If you have any questions on this work, please open a [GitHub issue](https://github.com/ShubhamKumarNigam/NyayaAnumana-and-INLegalLlama/issues) or email the authors at
 
 ```shubhamkumarnigam@gmail.com, bdeepakpatnaik2002@gmail.com, shivammis@gmail.com```
 
----
-
-## Overview
-
-The integration of artificial intelligence (AI) in legal judgment prediction (LJP) has the potential to transform the legal landscape, particularly in jurisdictions like India, where a significant backlog of cases burdens the legal system. This paper introduces _NyayaAnumana_, the largest and most diverse corpus of Indian legal cases compiled for LJP, encompassing a total of 7,02,945 preprocessed cases. _NyayaAnumana_, which combines the words **"Nyay" (judgment)** and **"Anuman" (prediction or inference)** respectively for most major Indian languages, includes a wide range of cases from the Supreme Court, High Courts, Tribunal Courts, District Courts, and Daily Orders and, thus, provides unparalleled diversity and coverage. Our dataset surpasses existing datasets like PredEx and ILDC, offering a comprehensive foundation for advanced AI research in the legal domain. 
-
-In addition to the dataset, we present _INLegalLlama_, a domain-specific generative large language model (LLM) tailored to the intricacies of the Indian legal system. It is developed through a two-phase training approach over a base LLaMa model. First, Indian legal documents are injected using continual pretraining. Second, task-specific supervised finetuning is done. This method allows the model to achieve a deeper understanding of legal contexts. 
-
-Our experiments demonstrate that incorporating diverse court data significantly boosts model accuracy, achieving approximately 90% F1-score in prediction tasks. _INLegalLlama_ not only improves prediction accuracy but also offers comprehensible explanations, addressing the need for explainability in AI-assisted legal decisions.
-
----
 ## NyayaAnumana
-![NyayaAnumana](images/NyayaAnumana.png)
+<img src="images/NyayaAnumana.png" height="50%" />
+
+This paper introduces _NyayaAnumana_, the largest and most diverse corpus of Indian legal cases compiled for LJP, encompassing a total of 7,02,945 preprocessed cases. _NyayaAnumana_, which combines the words **"Nyay" (judgment)** and **"Anuman" (prediction or inference)** respectively for most major Indian languages, includes a wide range of cases from the Supreme Court, High Courts, Tribunal Courts, District Courts, and Daily Orders and, thus, provides unparalleled diversity and coverage. Our dataset surpasses existing datasets like PredEx and ILDC, offering a comprehensive foundation for advanced AI research in the legal domain. 
+
+
 
 ## INLegalLlama
-The INLegalLlama integrates Large Language Models (LLMs) with the NyayaAnumana and PREDEX datasets to enhance legal judgment prediction and explanation capabilities. 
-This encompasses two main phases for working with LLMs:
+In addition to the dataset, we present _INLegalLlama_, a domain-specific generative large language model (LLM) tailored to the intricacies of the Indian legal system.The INLegalLlama integrates Large Language Models (LLMs) with the NyayaAnumana and PREDEX datasets to enhance legal judgment prediction and explanation capabilities. It is developed through a two-phase training approach over a base LLaMa model. First, Indian legal documents are injected using continual pretraining. Second, task-specific supervised finetuning is done. This method allows the model to achieve a deeper understanding of legal contexts.
+The two primary phases employed are:
 1. Continued PreTraining
 2. Supervised FineTuning
 <br/>
 
 1. **Continued PreTraining**: We begin by continuing the pretraining of the base LLAMA2 model on a subset of the NyayaAnumana dataset. This phase aims to enrich the model's understanding of legal text and domain-specific knowledge.
 2. **Supervised FineTuning**: The model produced from the CPT phase undergoes supervised fine-tuning on the PREDEX dataset. This step is focused on optimizing the model for predicting judgments and providing coherent explanations in downstream tasks.
-
 ![InLegalLlama](images/InLegalLlama.png)
+
+---
+
+Our experiments demonstrate that incorporating diverse court data significantly boosts model accuracy, achieving approximately 90% F1-score in prediction tasks. _INLegalLlama_ not only improves prediction accuracy but also offers comprehensible explanations, addressing the need for explainability in AI-assisted legal decisions.
 
 ## Getting Started
 
