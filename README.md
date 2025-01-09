@@ -37,7 +37,7 @@ The integration of artificial intelligence (AI) in legal judgment prediction (LJ
 This advancement sets a new benchmark for legal judgment prediction in the NLP community, making strides in both accuracy and explainability for legal applications.
 If you have any questions on this work, please open a [GitHub issue](https://github.com/ShubhamKumarNigam/NyayaAnumana-and-INLegalLlama/issues) or email the authors at
 
-```shubhamkumarnigam@gmail.com, bdeepakpatnaik2002@gmail.com, shivammis@gmail.com```
+```shubhamkumarnigam@gmail.com, bdeepakpatnaik2002@gmail.com, shivam1602m@gmail.com```
 
 ## NyayaAnumana
 
