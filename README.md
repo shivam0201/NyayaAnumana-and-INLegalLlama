@@ -70,13 +70,8 @@ The two primary phases employed are:
 1. **Continued PreTraining**: We begin by continuing the pretraining of the base LLAMA2 model on a subset of the NyayaAnumana dataset. This phase aims to enrich the model's understanding of legal text and domain-specific knowledge.
 2. **Supervised FineTuning**: The model produced from the CPT phase undergoes supervised fine-tuning on the PREDEX dataset. This step is focused on optimizing the model for predicting judgments and providing coherent explanations in downstream tasks.
 
-<p align="center">
-  <img src="images/InLegalLlama.png" alt="InLegalLlama" />
-</p>
+<img src="images/InLegalLlama.png" alt="InLegalLlama" align="center" />
 
-<div style="text-align: center;">
-  <img src="images/InLegalLlama.png" alt="InLegalLlama" />
-</div>
 
 
 ---
