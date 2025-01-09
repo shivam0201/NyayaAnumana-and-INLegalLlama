@@ -59,7 +59,7 @@ The dataset is categorized into single and multi based on the target classificat
    - Partially Accepted (label-2/class-2): Cases with multiple judgments, where some are accepted and others are rejected.
 
 Choose the categorization that best suits your usecase.
-<img src="images/NyayaAnumana.png" height="10%" />
+<img src="images/NyayaAnumana.png" width ="700" height="700" />
 
 ### Data Statistics
 The dataset is categorized into ‘single’ and ‘multi’ decision types, with detailed statistics provided in Tables 2 and 3, including document counts, average token lengths, and decision distributions. The data is also analyzed on a court-wise basis, revealing insights into case characteristics across different court levels.
