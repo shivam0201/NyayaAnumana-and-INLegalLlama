@@ -19,7 +19,8 @@ NyayaAnumana & INLegalLlama: The Largest Indian Legal Judgment Prediction Datase
   This is the official implementation of the paper:
 </p>
 <p align="center">
-  <a href="https://arxiv.org/abs/2412.08385">NyayaAnumana & INLegalLlama: The Largest Indian Legal Judgment Prediction Dataset and Specialized Language Model for Enhanced Decision Analysis</a> (to appear in <strong>[COLING 2025](https://coling2025.org/)</strong>)
+  <a href="https://arxiv.org/abs/2412.08385">NyayaAnumana & INLegalLlama: The Largest Indian Legal Judgment Prediction Dataset and Specialized Language Model for Enhanced Decision Analysis</a>, to appear in <strong> <a href="https://coling2025.org/">COLING 2025</a> </strong>
+    
 </p>
 <p align="center">
  <b>Authors:</b> <a href="https://sites.google.com/view/shubhamkumarnigam">Shubham Kumar Nigam</a>, <a href="https://www.linkedin.com/in/balaramamahanthi-deepak-patnaik-b83043246/">Balaramamahanthi Deepak Patnaik</a>, <a href="https://www.linkedin.com/in/shivamm1602/">Shivam Mishra</a>, <a href="https://www.linkedin.com/in/noelshallum/">Noel Shallum</a>, <a href="https://sites.google.com/view/kripabandhughosh-homepage/home">Kripabandhu Ghosh</a>, and <a href="https://www.cse.iitk.ac.in/users/arnabb/">Arnab Bhattacharya</a>:
