@@ -111,8 +111,8 @@ By using an `environment.yml`, we can also easily manage dependencies from both 
 2. **Clone the Repository**:
    Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   git clone https://github.com/ShubhamKumarNigam/NyayaAnumana-and-INLegalLlama.git
+   cd NyayaAnumana-and-INLegalLlama
 3. **Create the Environment**:
    Run the following command to create the Conda environment using the environment.yml file:
    ```bash
