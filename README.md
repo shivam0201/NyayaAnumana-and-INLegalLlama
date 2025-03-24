@@ -97,6 +97,31 @@ Our experiments demonstrate that incorporating diverse court data significantly 
 
 Ensure you have the necessary hardware and software requirements in place to replicate our experimental setup. Follow the steps below to configure your environment for optimal performance.
 
+### Setting Up the Environment
+
+We use an `environment.yml` file to define the necessary environment and dependencies for this project. This file is used to create a **Conda environment**, ensuring that all dependencies (including Python version, libraries, and other tools) are installed in a consistent and reproducible way across different systems.
+
+By using an `environment.yml`, we can also easily manage dependencies from both Conda and pip, providing flexibility for various package sources.
+
+#### How to Use the `environment.yml` File
+
+1. **Install Conda** (if you don’t have it already):
+   - Download and install [Anaconda](https://www.anaconda.com/products/individual) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html), depending on your preference.
+
+2. **Clone the Repository**:
+   Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   cd your-repository
+3. **Create the Environment**:
+   Run the following command to create the Conda environment using the environment.yml file:
+   ```bash
+   conda env create -f environment.yml
+4. **Activate the Environment**:
+   Once the environment is created, activate it using:
+   ```bash
+   conda activate py310
+
 ## Recommended Hardware Configuration
 
 ### Hardware Specifications
